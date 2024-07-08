@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Jetweb Labs for Customized Software Solutions</title>
 <meta name="description" content="Get in touch with Jetweb Labs to discuss tailor-made software solutions for your business.">
-<link rel="canonical" href="https://jetweb-labs.turncage.com/contact">
+<link rel="canonical" href="https://jetweb-labs.turncage.comcontact.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C400i%2C700%2C700i%2C600%2C600i%7CLora%3A400%2C400i%2C700%2C700i%2C600%2C600i&display=swap" rel="preload" as="style">
@@ -219,7 +219,7 @@
 <a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" itemprop="url" href="contact.html">Inquire Today</a>
 </li>
 <li id="cart_icon" x-sync class="hidden" role="menuitem">
-<a href="/store/cart" class="relative flex items-center justify-center px-2" itemprop="url" aria-label="Cart" x-on:click.prevent.stop="$store.cart.isOpen = !$store.cart.isOpen">
+<a href="store.html/cart" class="relative flex items-center justify-center px-2" itemprop="url" aria-label="Cart" x-on:click.prevent.stop="$store.cart.isOpen = !$store.cart.isOpen">
 <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" class="fill-current">
 <path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
 </svg>
@@ -234,7 +234,7 @@
 </button>
 </li>
 </ul>
-<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text lg:hidden" href="/contact">Inquire Today</a>
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text lg:hidden" href="contact.html">Inquire Today</a>
 </nav>
 <div class="fixed inset-0 z-30 bg-black/50 lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
 <div class="navbar fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-background px-8 shadow-md lg:ml-[60vw] lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.menu.isOpen = false" x-on:click.outside="$store.menu.isOpen = false">
@@ -284,7 +284,7 @@
 <div class="cart fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-alt px-8 text-alt-text shadow-md lg:ml-auto lg:w-[42rem]" style="display:none" x-show="$store.cart.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.cart.isOpen = false" x-on:click.outside="$store.cart.isOpen = false">
 <div class="flex flex-grow flex-col gap-4 py-12">
 <div class="text-3xl">Your Cart</div>
-<form id="cart_flyout" method="post" action="/store/cart" class="flex flex-col-reverse gap-4 @container" x-data="{loading: false, target: null, changed: false}" x-init x-sync x-target x-on:submit.debounce.150ms="if (target) { loading = true; }" x-on:pagehide.window="loading = false; target = null;" x-on:ajax:after="loading = false; target = null" x-on:ajax:success="changed = false; setTimeout(function(){ if (!document.querySelector('#cart_flyout button[type=submit]')) $store.cart.isOpen = false; })">
+<form id="cart_flyout" method="post" action="store.html/cart" class="flex flex-col-reverse gap-4 @container" x-data="{loading: false, target: null, changed: false}" x-init x-sync x-target x-on:submit.debounce.150ms="if (target) { loading = true; }" x-on:pagehide.window="loading = false; target = null;" x-on:ajax:after="loading = false; target = null" x-on:ajax:success="changed = false; setTimeout(function(){ if (!document.querySelector('#cart_flyout button[type=submit]')) $store.cart.isOpen = false; })">
 <div class="flex flex-col p-4"><div class="text-center">Your cart is currently empty.</div></div>
 </form>
 </div>
@@ -409,7 +409,7 @@ apply.
 <div class="lg:layer-half-left from-left flex min-w-0 flex-col px-8 py-8 text-highlight-text md:basis-1/2 md:justify-center" x-data x-anim-fade>
 <h1 class="heading-typical mt-4 whitespace-pre-line break-words">Discover More About Us Today</h1>
 <div class="mt-4 whitespace-pre-line break-words"><p>Want to learn more about what we do? Why not head over to our "About Us" page and discover how we can help you succeed online. Visit now!</p></div>
-<a class="button mt-8 self-start bg-highlight-button text-highlight-button-text shadow-md" href="/about">Explore</a>
+<a class="button mt-8 self-start bg-highlight-button text-highlight-button-text shadow-md" href="about.html">Explore</a>
 </div>
 <div class="from-bottom relative aspect-[1.75] bg-tertiary md:basis-1/2 " x-data x-anim-fade>
 <img class="absolute inset-0 z-0 h-full w-full object-cover" src="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=183,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=274,width=480/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=366,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=549,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 960w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=585,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 1024w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=731,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 1280w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,gravity=auto,height=914,width=1600/clyc6xjvv03zka6mys7lqn3p8/clyc8mxgz043ma6my17woh7ns.jpg 1600w" sizes="(min-width: 1024px) 50vw, 100vw" alt loading="lazy">
