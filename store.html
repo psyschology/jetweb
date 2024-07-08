@@ -290,27 +290,33 @@
 </div>
 </div>
 <main>
-        <div class="store-page layer mt-4 bg-background text-foreground">
+       <div class="store-page layer mt-4 bg-background text-foreground">
   <div class="layer-content flex flex-col items-center gap-4 py-8">
-    <h2 class="text-2xl lg:text-3xl font-semibold">Our Products</h2>
+    <h2 class="text-2xl lg:text-3xl font-semibold text-white">Our Products</h2>
     <div class="product-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="product-card shadow-lg bg-black rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
         <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-t-lg">
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 1</h3>
-        <p class="text-gray-700 mb-4">Description of Product 1</p>
-        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+        <h3 class="text-xl font-bold text-white mb-2">Product 1</h3>
+        <p class="text-gray-300 mb-2">Price: $100</p>
+        <p class="text-gray-400 mb-4">Description of Product 1</p>
+        <button class="bg-blue-600 text-white rounded-md px-4 py-2 mr-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View More</button>
+        <button class="bg-green-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-green-700">Book Free Consultation</button>
       </div>
-      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="product-card shadow-lg bg-black rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
         <img src="h1.png" alt="Product 2" class="w-full h-48 object-cover mb-4 rounded-t-lg">
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 2</h3>
-        <p class="text-gray-700 mb-4">Description of Product 2</p>
-        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+        <h3 class="text-xl font-bold text-white mb-2">Product 2</h3>
+        <p class="text-gray-300 mb-2">Price: $200</p>
+        <p class="text-gray-400 mb-4">Description of Product 2</p>
+        <button class="bg-blue-600 text-white rounded-md px-4 py-2 mr-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View More</button>
+        <button class="bg-green-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-green-700">Book Free Consultation</button>
       </div>
-      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+      <div class="product-card shadow-lg bg-black rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
         <img src="h1.png" alt="Product 3" class="w-full h-48 object-cover mb-4 rounded-t-lg">
-        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 3</h3>
-        <p class="text-gray-700 mb-4">Description of Product 3</p>
-        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+        <h3 class="text-xl font-bold text-white mb-2">Product 3</h3>
+        <p class="text-gray-300 mb-2">Price: $300</p>
+        <p class="text-gray-400 mb-4">Description of Product 3</p>
+        <button class="bg-blue-600 text-white rounded-md px-4 py-2 mr-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View More</button>
+        <button class="bg-green-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-green-700">Book Free Consultation</button>
       </div>
       <!-- Repeat product card structure for additional products -->
     </div>
@@ -320,8 +326,8 @@
 <style>
   /* Add custom styling here */
   .product-card {
-    background-color: #FFF;
-    color: #000;
+    background-color: #000;
+    color: #FFF;
     border-radius: 0.75rem;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -330,7 +336,7 @@
 
   .product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2), 0px 3px 6px rgba(0, 0, 0, 0.16);
   }
 
   .product-card img {
@@ -344,12 +350,10 @@
   .product-card h3 {
     font-size: 1.5rem;
     margin-top: 1rem;
-    color: #111827;
   }
 
   .product-card p {
     font-size: 1rem;
-    color: #374151;
   }
 
   .product-card button {
@@ -364,10 +368,22 @@
   }
 
   .product-card button:hover {
-    background-color: #1D4ED8;
     transform: scale(1.05);
   }
+  
+  .product-card button:first-of-type:hover {
+    background-color: #1D4ED8;
+  }
+  
+  .product-card button:last-of-type {
+    background-color: #10B981;
+  }
+  
+  .product-card button:last-of-type:hover {
+    background-color: #059669;
+  }
 </style>
+
 
     </main>
 <footer class="layer mt-auto bg-black py-4 text-white">
