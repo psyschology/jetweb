@@ -290,15 +290,84 @@
 </div>
 </div>
 <main>
-<div class="layer nav-pad-offset overflow-visible">
-<div class="layer-content flex flex-col gap-4 py-12">
-<div class="flex basis-96 flex-col items-center justify-center gap-6 bg-alt px-8 text-center text-alt-text">
-<h1 class="heading-typical whitespace-pre-line break-words font-title" x-data x-anim-fade>Coming Soon</h1>
-<div class="whitespace-pre-line break-words"><p>We will be celebrating the launch of our new store soon.
-Check back regularly. We look forward to serving you.</p></div>
+<div class="store-page layer mt-4 bg-background text-foreground">
+  <div class="layer-content flex flex-col items-center gap-4 py-8">
+    <h2 class="text-2xl lg:text-3xl font-semibold">Our Products</h2>
+    <div class="product-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+        <img src="product1.jpg" alt="Product 1" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 1</h3>
+        <p class="text-gray-700 mb-4">Description of Product 1</p>
+        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+      </div>
+      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+        <img src="h1.png" alt="Product 2" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 2</h3>
+        <p class="text-gray-700 mb-4">Description of Product 2</p>
+        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+      </div>
+      <div class="product-card shadow-lg bg-white rounded-lg p-4 transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+        <img src="h1.png" alt="Product 3" class="w-full h-48 object-cover mb-4 rounded-t-lg">
+        <h3 class="text-xl font-bold text-gray-900 mb-2">Product 3</h3>
+        <p class="text-gray-700 mb-4">Description of Product 3</p>
+        <button class="mt-2 bg-blue-600 text-white rounded-md px-4 py-2 transition-colors duration-300 ease-in-out transform hover:bg-blue-700">View Product</button>
+      </div>
+      <!-- Repeat product card structure for additional products -->
+    </div>
+  </div>
 </div>
-</div>
-</div>
+
+<style>
+  /* Add custom styling here */
+  .product-card {
+    background-color: #FFF;
+    color: #000;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+  }
+
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.08);
+  }
+
+  .product-card img {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .product-card h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #111827;
+  }
+
+  .product-card p {
+    font-size: 1rem;
+    color: #374151;
+  }
+
+  .product-card button {
+    margin-top: 1rem;
+    background-color: #2563EB;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .product-card button:hover {
+    background-color: #1D4ED8;
+    transform: scale(1.05);
+  }
+</style>
 </main>
 <footer class="layer mt-auto bg-black py-4 text-white">
 <div class="layer-content flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
