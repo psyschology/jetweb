@@ -1,0 +1,414 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expert Web Development Services by Jetweb Labs</title>
+<meta name="description" content="Jetweb Labs specializes in Web Development services, ensuring Rapid Deployment and Continuous Improvement.">
+<link rel="canonical" href="https://jetweb-labs.turncage.com/web-development.html.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C400i%2C700%2C700i%2C600%2C600i%7CLora%3A400%2C400i%2C700%2C700i%2C600%2C600i&display=swap" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C400i%2C700%2C700i%2C600%2C600i%7CLora%3A400%2C400i%2C700%2C700i%2C600%2C600i&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript>
+    <link href="https://fonts.googleapis.com/css?family=Roboto%3A400%2C400i%2C700%2C700i%2C600%2C600i%7CLora%3A400%2C400i%2C700%2C700i%2C600%2C600i&display=swap" rel="stylesheet">
+  </noscript>
+<link rel="stylesheet" href="tailwind.css">
+<style>
+  :root {
+      --menu-height: 5rem;
+   --menu-height: 10rem;
+  
+  
+      --logo-weight: 400;
+      --logo-font: "Calistoga";
+      --logo-size: 42px;
+  
+      --title-weight: 400;
+      --title-style: normal;
+      --title-font: "Roboto";
+      --body-weight: 400;
+      --body-style: normal;
+      --body-font: "Lora";
+      --font-scale: 1.1875;
+      --background: #000000;
+      --button: #46536B;
+      --button-text: #FFFFFF;
+      --button-outline: #46536B;
+      --foreground: #FFFFFF;
+      --alt: #212121;
+      --alt-button: #46536B;
+      --alt-button-text: #FFFFFF;
+      --alt-button-outline: #46536B;
+      --alt-text: #FFFFFF;
+      --primary: #46536B;
+      --primary-text: #FFFFFF;
+      --secondary: #CCCCCC;
+      --secondary-text: #000000;
+      --tertiary: #46536B;
+      --tertiary-text: #FFFFFF;
+      --highlight: #484848;
+      --highlight-button: #FFFFFF;
+      --highlight-button-text: #000000;
+      --highlight-text: #FFFFFF;
+      --highlight2: #464646;
+      --highlight2-button: #FFFFFF;
+      --highlight2-button-text: #000000;
+      --highlight2-text: #FFFFFF;
+      --overlay-text: #FFFFFF;
+  }
+
+  @media (min-width: 1024px) {
+      :root {
+          --menu-height: 6rem;
+      }
+  }
+
+  .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .slot-2 {
+      color: #46536B;
+  }
+
+  .slot-3 {
+      color: #CCCCCC;
+  }
+
+  .text-highlight-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-highlight-text .slot-2 {
+      color: #7D7D7D;
+  }
+
+  .text-highlight-text .slot-3 {
+      color: #CCCCCC;
+  }
+
+  .text-highlight2-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-highlight2-text .slot-2 {
+      color: #000000;
+  }
+
+  .text-highlight2-text .slot-3 {
+      color: #CCCCCC;
+  }
+
+  .text-alt-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-alt-text .slot-2 {
+      color: #46536B;
+  }
+
+  .text-alt-text .slot-3 {
+      color: #CCCCCC;
+  }
+
+  .text-primary-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-primary-text .slot-2 {
+      color: #000000;
+  }
+
+  .text-primary-text .slot-3 {
+      color: #F5F5F5;
+  }
+
+  .text-secondary-text .slot-1 {
+      color: #000000;
+  }
+
+  .text-secondary-text .slot-2 {
+      color: #46536B;
+  }
+
+  .text-secondary-text .slot-3 {
+      color: #7D7D7D;
+  }
+
+  .text-tertiary-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-tertiary-text .slot-2 {
+      color: #000000;
+  }
+
+  .text-tertiary-text .slot-3 {
+      color: #F5F5F5;
+  }
+
+  .text-overlay-text .slot-1 {
+      color: #FFFFFF;
+  }
+
+  .text-overlay-text .slot-2 {
+      color: #46536B;
+  }
+
+  .text-overlay-text .slot-3 {
+      color: #000000;
+  }
+
+  
+  .color-rule-1 { color: #F5F5F5; }
+  
+  .color-rule-2 { color: #CCCCCC; }
+  .color-rule-3 { color: #484848; }
+  .color-rule-4 { padding-inline: 4px;background-image: linear-gradient(45deg,#484848,#CCCCCC);background-clip:text;-webkit-text-fill-color:transparent; }
+  .color-rule-5 { color: #46536B; }
+  .color-rule-6 { padding-inline: 4px;background-image: linear-gradient(45deg,#464646,#46536B);background-clip:text;-webkit-text-fill-color:transparent; }
+  .color-rule-7 { padding-inline: 4px;background-image: linear-gradient(45deg,#CCCCCC,#46536B);background-clip:text;-webkit-text-fill-color:transparent; }
+</style>
+<link rel="icon" href="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=cover,width=48,height=48/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg" sizes="any">
+<link rel="preload" as="image" href="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg" imagesrcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
+    " imagesizes="(min-width: 1024px) 25vw, 50vw">
+<meta property="og:title" content="Expert Web Development Services by Jetweb Labs">
+<meta property="og:image" content>
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="113"></head>
+<body class="bg-background text-base text-foreground">
+<nav class="navbar nav-height fixed left-0 top-0 z-30 flex w-full flex-col bg-background px-8 shadow-md lg:flex-row lg:px-4" role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" x-data>
+<ul class="layer-content flex h-20 w-full flex-row items-center lg:h-auto lg:flex-1 lg:gap-6" role="menu">
+<li class="logo mr-auto flex items-center" role="menuitem">
+<a href="/" class="h-20 py-2" aria-label="Home">
+<img class="h-full w-full object-contain object-left" width="1588" height="682" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
+            " src="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg" sizes="(min-width: 1024px) 25vw, 50vw" loading="eager" alt>
+</a></li><li class="component self-stretch hidden lg:flex text-lg " role="menuitem" x-data x-on:focusin.window="$refs.panel._x_isShown && !$refs.panel.contains($event.target) && $refs.panel.close()">
+<button type="button" class="flex cursor-pointer items-center gap-1" x-on:click="$refs.panel.toggle">
+<div class="uppercase">Integrated Solutions</div>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512" class="h-4 w-4 fill-current transition-transform duration-100">
+<path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z" />
+</svg>
+</button>
+<ul class="panel absolute left-0 top-0 z-30 hidden w-max min-w-[10rem] flex-col rounded-sm bg-background text-foreground shadow-md" x-ref="panel" x-float.placement.bottom-start.shift="{shift:{padding: 16}}" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-100" x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
+<li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary bg-alt text-alt-text transition-colors hover:bg-primary hover:text-primary-text">
+<a class="block px-3 py-3" role="menuitem" href="web-development.html">Web Development</a>
+</li>
+<li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
+<a class="block px-3 py-3" role="menuitem" href="e-commerce-solutions.html">E-commerce Solutions</a>
+</li>
+<li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
+<a class="block px-3 py-3" role="menuitem" href="digital-marketing.html">Digital Marketing</a>
+</li>
+<li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
+<a class="block px-3 py-3" role="menuitem" href="data-analytics.html">Data Analytics</a>
+</li>
+<li class="border-1 border-t border-neutral-200 capitalize first:border-t-4 first:border-primary  transition-colors hover:bg-primary hover:text-primary-text">
+<a class="block px-3 py-3" role="menuitem" href="social-media-management.html">Social Media Management</a>
+</li>
+</ul>
+</li><li class="hidden lg:block text-lg " role="menuitem">
+<a class="uppercase" itemprop="url" href="about.html">About</a>
+</li><li class="hidden lg:block text-lg " role="menuitem">
+<a class="uppercase" itemprop="url" href="contact.html">Contact</a>
+</li><li class="hidden lg:block text-lg " role="menuitem">
+<a class="uppercase" itemprop="url" href="store.html">Store</a>
+</li>
+<li class="hidden lg:block" role="menuitem">
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" itemprop="url" href="contact.html">Inquire Today</a>
+</li>
+<li id="cart_icon" x-sync class="hidden" role="menuitem">
+<a href="store.html/cart" class="relative flex items-center justify-center px-2" itemprop="url" aria-label="Cart" x-on:click.prevent.stop="$store.cart.isOpen = !$store.cart.isOpen">
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512" class="fill-current">
+<path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" />
+</svg>
+</a>
+</li>
+<li class="lg:hidden" role="menuitem">
+<button x-on:click="$store.menu.isOpen = !$store.menu.isOpen" type="button" class="block px-2 transition duration-100" :class="{ 'rotate-90': $store.menu.isOpen }" aria-label="toggle-menu">
+<svg class="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+<path class="hidden" :class="{ 'block': $store.menu.isOpen, 'hidden': !$store.menu.isOpen }" fill-rule="evenodd" clip-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+<path :class="{ 'hidden': $store.menu.isOpen, 'block': !$store.menu.isOpen }" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+</svg>
+</button>
+</li>
+</ul>
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text lg:hidden" href="contact.html">Inquire Today</a>
+</nav>
+<div class="fixed inset-0 z-30 bg-black/50 lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+<div class="navbar fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-background px-8 shadow-md lg:ml-[60vw] lg:hidden" style="display:none" x-show="$store.menu.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.menu.isOpen = false" x-on:click.outside="$store.menu.isOpen = false">
+<ul class="flex flex-grow flex-col pb-12">
+<li class="logo py-4 text-3xl">
+<a href="/" class="block h-20" aria-label="Home">
+<img class="h-full w-full object-contain object-left" width="1588" height="682" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
+            " src="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg" sizes="(min-width: 1024px) 25vw, 50vw" loading="eager" alt>
+</a></li>
+<li class="border-t border-current"></li>
+<li class="text-2xl  lg:hidden" x-data="{'expand': true}">
+<div class="flex cursor-pointer items-center gap-4 py-3" x-on:click="expand = !expand">
+<div>Integrated Solutions</div>
+<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512" class="h-5 w-5 fill-current transition-transform duration-100" :class="{ 'rotate-180': expand }">
+<path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+</svg>
+</div>
+<ul class="flex flex-col overflow-hidden pl-4 transition-all duration-100" x-ref="menu1" style="max-height: initial" x-bind:style="(!expand || $refs.menu1.scrollHeight) ? expand ? 'max-height: ' + $refs.menu1.scrollHeight + 'px' : 'max-height: 0' : 'max-height: initial'">
+<li class="text-xl capitalize underline decoration-2 underline-offset-4" role="menuitem">
+<a class="my-3 block" href="web-development.html">Web Development</a>
+</li>
+<li class="text-xl capitalize " role="menuitem">
+<a class="my-3 block" href="e-commerce-solutions.html">E-commerce Solutions</a>
+</li>
+<li class="text-xl capitalize " role="menuitem">
+<a class="my-3 block" href="digital-marketing.html">Digital Marketing</a>
+</li>
+<li class="text-xl capitalize " role="menuitem">
+<a class="my-3 block" href="data-analytics.html">Data Analytics</a>
+</li>
+<li class="text-xl capitalize " role="menuitem">
+<a class="my-3 block" href="social-media-management.html">Social Media Management</a>
+</li>
+</ul>
+</li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
+<a class="my-3 block" href="about.html">About</a>
+</li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
+<a class="my-3 block" href="contact.html">Contact</a>
+</li><li class="text-2xl  lg:hidden" x-on:click="$store.menu.isOpen = false">
+<a class="my-3 block" href="store.html">Store</a>
+</li>
+<li class="mt-auto lg:hidden">
+<a class="nav-button flex items-center justify-center whitespace-nowrap rounded-md bg-button text-center text-button-text" href="contact.html">Inquire Today</a>
+</li>
+</ul>
+</div><div class="fixed inset-0 z-30 bg-black/50" style="display:none" x-show="$store.cart.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0" x-transition:enter-end="opacity-100" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100" x-transition:leave-end="opacity-0"></div>
+<div class="cart fixed inset-0 z-40 ml-[20vw] flex flex-col overflow-y-auto bg-alt px-8 text-alt-text shadow-md lg:ml-auto lg:w-[42rem]" style="display:none" x-show="$store.cart.isOpen" x-data x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-x-full" x-transition:enter-end="opacity-100 translate-x-0" x-transition:leave="transition ease-in duration-200" x-transition:leave-start="opacity-100 translate-x-0" x-transition:leave-end="opacity-0 translate-x-full" x-on:keydown.window.escape="$store.cart.isOpen = false" x-on:click.outside="$store.cart.isOpen = false">
+<div class="flex flex-grow flex-col gap-4 py-12">
+<div class="text-3xl">Your Cart</div>
+<form id="cart_flyout" method="post" action="store.html/cart" class="flex flex-col-reverse gap-4 @container" x-data="{loading: false, target: null, changed: false}" x-init x-sync x-target x-on:submit.debounce.150ms="if (target) { loading = true; }" x-on:pagehide.window="loading = false; target = null;" x-on:ajax:after="loading = false; target = null" x-on:ajax:success="changed = false; setTimeout(function(){ if (!document.querySelector('#cart_flyout button[type=submit]')) $store.cart.isOpen = false; })">
+<div class="flex flex-col p-4"><div class="text-center">Your cart is currently empty.</div></div>
+</form>
+</div>
+</div>
+<main>
+<div class="nav-pad-offset">
+<div class="layer relative bg-highlight">
+<picture>
+<source media="(max-width: 1023px)" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=480/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 960w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 1024w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clycaornk031mqlaawj0ckrj3.jpg 1280w">
+<source media="(min-width: 1024px)" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 320w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=480/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 480w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 640w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 960w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 1024w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 1280w, https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1600/clyc6xjvv03zka6mys7lqn3p8/clycaopkm031fqlaaa6tzjp5p.jpg 1600w">
+<img class="absolute inset-0 z-0 h-full w-full object-cover" src="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7jjam0423a6myfbfacxxc.jpg" sizes="100vw" alt loading="eager">
+</picture>
+<div class="absolute inset-0 z-0 w-full bg-overlay"></div>
+<div class="layer-content relative flex flex-col items-center gap-4 py-24 text-center text-overlay-text">
+<h2 class="from-left subheading-typical whitespace-pre-line break-words lg:text-lg" x-data x-anim-fade>Jetweb Labs</h2>
+<h1 class="from-right max-w-4xl whitespace-pre-line break-words font-title text-4xl lg:text-6xl" x-data x-anim-fade>Terms of Use</h1>
+</div>
+</div>
+</div>
+<div class="layer relative overflow-hidden">
+<div class="layer-content relative flex max-w-[700px] flex-col py-8 lg:min-h-[24rem] lg:py-16">
+<div class="whitespace-pre-line break-words text-lg"><p><span>The Jetweb Labs website located at https://jetweb.in is a copyrighted work belonging to Jetweb Labs. Certain features of the Site may be subject to additional guidelines, terms, or rules, which will be posted on the Site in connection with such features.</span></p>
+<p><span>All such additional terms, guidelines, and rules are incorporated by reference into these Terms.</span></p>
+<p><span>These Terms of Use described the legally binding terms and conditions that oversee your use of the Site. BY LOGGING INTO THE SITE, YOU ARE BEING COMPLIANT THAT THESE TERMS and you represent that you have the authority and capacity to enter into these Terms. YOU SHOULD BE AT LEAST 18 YEARS OF AGE TO ACCESS THE SITE. IF YOU DISAGREE WITH ALL OF THE PROVISION OF THESE TERMS, DO NOT LOG INTO AND/OR USE THE SITE.</span></p>
+<p><span>These terms require the use of arbitration Section 10.2 on an individual basis to resolve disputes and also limit the remedies available to you in the event of a dispute. These Terms of Use were created with the help of the Terms Of Use Generator.</span></p>
+<p><span>Access to the Site</span></p><p><span>Subject to these Terms. Company grants you a non-transferable, non-exclusive, revocable, limited license to access the Site solely for your own personal, noncommercial use.</span></p>
+<p><span>Certain Restrictions. The rights approved to you in these Terms are subject to the following restrictions: (a) you shall not sell, rent, lease, transfer, assign, distribute, host, or otherwise commercially exploit the Site; (b) you shall not change, make derivative works of, disassemble, reverse compile or reverse engineer any part of the Site; (c) you shall not access the Site in order to build a similar or competitive website; and (d) except as expressly stated herein, no part of the Site may be copied, reproduced, distributed, republished, downloaded, displayed, posted or transmitted in any form or by any means unless otherwise indicated, any future release, update, or other addition to functionality of the Site shall be subject to these Terms. All copyright and other proprietary notices on the Site must be retained on all copies thereof.</span></p>
+<p><span>Company reserves the right to change, suspend, or cease the Site with or without notice to you. You approved that Company will not be held liable to you or any third-party for any change, interruption, or termination of the Site or any part.</span></p>
+<p><span>No Support or Maintenance. You agree that Company will have no obligation to provide you with any support in connection with the Site.</span></p>
+<p><span>Excluding any User Content that you may provide, you are aware that all the intellectual property rights, including copyrights, patents, trademarks, and trade secrets, in the Site and its content are owned by Company or Company's suppliers. Note that these Terms and access to the Site do not give you any rights, title or interest in or to any intellectual property rights, except for the limited access rights expressed in Section 2.1. Company and its suppliers reserve all rights not granted in these Terms.</span></p>
+<p><span>User Content</span></p><p><span>User Content. "User Content" means any and all information and content that a user submits to the Site. You are exclusively responsible for your User Content. You bear all risks associated with use of your User Content. You hereby certify that your User Content does not violate our Acceptable Use Policy. You may not represent or imply to others that your User Content is in any way provided, sponsored or endorsed by Company. Because you alone are responsible for your User Content, you may expose yourself to liability. Company is not obliged to backup any User Content that you post; also, your User Content may be deleted at any time without prior notice to you. You are solely responsible for making your own backup copies of your User Content if you desire.</span></p>
+<p><span>You hereby grant to Company an irreversible, nonexclusive, royalty-free and fully paid, worldwide license to reproduce, distribute, publicly display and perform, prepare derivative works of, incorporate into other works, and otherwise use and exploit your User Content, and to grant sublicenses of the foregoing rights, solely for the purposes of including your User Content in the Site. You hereby irreversibly waive any claims and assertions of moral rights or attribution with respect to your User Content.</span></p>
+<p><span>Acceptable Use Policy. The following terms constitute our "Acceptable Use Policy": You agree not to use the Site to collect, upload, transmit, display, or distribute any User Content (i) that violates any third-party right or any intellectual property or proprietary right; (ii) that is unlawful, harassing, abusive, tortious, threatening, harmful, invasive of another's privacy, vulgar, defamatory, false, intentionally misleading, trade libelous, pornographic, obscene, patently offensive, promotes racism, bigotry, hatred, or physical harm of any kind against any group or individual; (iii) that is harmful to minors in any way; or (iv) that is in violation of any law, regulation, or obligations or restrictions imposed by any third party.</span></p>
+<p><span>In addition, you agree not to: (i) upload, transmit, or distribute to or through the Site any software intended to damage or alter a computer system or data; (ii) send through the Site unsolicited or unauthorized advertising, promotional materials, junk mail, spam, chain letters, pyramid schemes, or any other form of duplicative or unsolicited messages; (iii) use the Site to harvest, collect, gather or assemble information or data regarding other users without their consent; (iv) interfere with, disrupt, or create an undue burden on servers or networks connected to the Site, or violate the regulations, policies or procedures of such networks; (v) attempt to gain unauthorized access to the Site, whether through password mining or any other means; (vi) harass or interfere with any other user's use and enjoyment of the Site; or (vi) use software or automated agents or scripts to produce multiple accounts on the Site, or to generate automated searches, requests, or queries to the Site.</span></p>
+<p><span>We reserve the right to review any User Content, and to investigate and/or take appropriate action against you in our sole discretion if you violate the Acceptable Use Policy or any other provision of these Terms or otherwise create liability for us or any other person. Such action may include removing or modifying your User Content, terminating your Account in accordance with Section 8, and/or reporting you to law enforcement authorities.</span></p>
+<p><span>If you provide Company with any feedback or suggestions regarding the Site, you hereby assign to Company all rights in such Feedback and agree that Company shall have the right to use and fully exploit such Feedback and related information in any manner it believes appropriate. Company will treat any Feedback you provide to Company as non-confidential and non-proprietary.</span></p>
+<p><span>You agree to indemnify and hold Company and its officers, employees, and agents harmless, including costs and attorneys' fees, from any claim or demand made by any third-party due to or arising out of (a) your use of the Site, (b) your violation of these Terms, (c) your violation of applicable laws or regulations or (d) your User Content. Company reserves the right to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate with our defense of these claims. You agree not to settle any matter without the prior written consent of Company. Company will use reasonable efforts to notify you of any such claim, action or proceeding upon becoming aware of it.</span></p>
+<p><span>Third-Party Links &amp; Ads; Other Users</span></p><p><span>Third-Party Links &amp; Ads. The Site may contain links to third-party websites and services, and/or display advertisements for third-parties. Such Third-Party Links &amp; Ads are not under the control of Company, and Company is not responsible for any Third-Party Links &amp; Ads. Company provides access to these Third-Party Links &amp; Ads only as a convenience to you, and does not review, approve, monitor, endorse, warrant, or make any representations with respect to Third-Party Links &amp; Ads. You use all Third-Party Links &amp; Ads at your own risk, and should apply a suitable level of caution and discretion in doing so. When you click on any of the Third-Party Links &amp; Ads, the applicable third party's terms and policies apply, including the third party's privacy and data gathering practices.</span></p>
+<p><span>Other Users. Each Site user is solely responsible for any and all of its own User Content. Because we do not control User Content, you acknowledge and agree that we are not responsible for any User Content, whether provided by you or by others. You agree that Company will not be responsible for any loss or damage incurred as the result of any such interactions. If there is a dispute between you and any Site user, we are under no obligation to become involved.</span></p>
+<p><span>You hereby release and forever discharge the Company and our officers, employees, agents, successors, and assigns from, and hereby waive and relinquish, each and every past, present and future dispute, claim, controversy, demand, right, obligation, liability, action and cause of action of every kind and nature, that has arisen or arises directly or indirectly out of, or that relates directly or indirectly to, the Site. If you are a California resident, you hereby waive California civil code section 1542 in connection with the foregoing, which states: "a general release does not extend to claims which the creditor does not know or suspect to exist in his or her favor at the time of executing the release, which if known by him or her must have materially affected his or her settlement with the debtor."</span></p>
+<p><span>Cookies and Web Beacons. Like any other website, Jetweb Labs uses ‘cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</span></p>
+<p><span>Google DoubleClick DART Cookie. Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors based upon their visit to www.website.com and other sites on the internet. However, visitors may choose to decline the use of DART cookies by visiting the Google ad and content network Privacy Policy at the following URL – https://policies.google.com/technologies/ads</span></p>
+<p><span>Our Advertising Partners. Some of advertisers on our site may use cookies and web beacons. Our advertising partners are listed below. Each of our advertising partners has their own Privacy Policy for their policies on user data. For easier access, we hyperlinked to their Privacy Policies below.</span></p>
+<p><span>Google</span></p>
+<p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>https://policies.google.com/technologies/ads</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Disclaimers</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>The site is provided on an "as-is" and "as available" basis, and company and our suppliers expressly disclaim any and all warranties and conditions of any kind, whether express, implied, or statutory, including all warranties or conditions of merchantability, fitness for a particular purpose, title, quiet enjoyment, accuracy, or non-infringement. We and our suppliers make not guarantee that the site will meet your requirements, will be available on an uninterrupted, timely, secure, or error-free basis, or will be accurate, reliable, free of viruses or other harmful code, complete, legal, or safe. If applicable law requires any warranties with respect to the site, all such warranties are limited in duration to ninety (90) days from the date of first use.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Some jurisdictions do not allow the exclusion of implied warranties, so the above exclusion may not apply to you. Some jurisdictions do not allow limitations on how long an implied warranty lasts, so the above limitation may not apply to you.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Limitation on Liability</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>To the maximum extent permitted by law, in no event shall company or our suppliers be liable to you or any third-party for any lost profits, lost data, costs of procurement of substitute products, or any indirect, consequential, exemplary, incidental, special or punitive damages arising from or relating to these terms or your use of, or incapability to use the site even if company has been advised of the possibility of such damages. Access to and use of the site is at your own discretion and risk, and you will be solely responsible for any damage to your device or computer system, or loss of data resulting therefrom.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>To the maximum extent permitted by law, notwithstanding anything to the contrary contained herein, our liability to you for any damages arising from or related to this agreement, will at all times be limited to a maximum of fifty U.S. dollars (u.s. $50). The existence of more than one claim will not enlarge this limit. You agree that our suppliers will have no liability of any kind arising from or relating to this agreement.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Some jurisdictions do not allow the limitation or exclusion of liability for incidental or consequential damages, so the above limitation or exclusion may not apply to you.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Term and Termination. Subject to this Section, these Terms will remain in full force and effect while you use the Site. We may suspend or terminate your rights to use the Site at any time for any reason at our sole discretion, including for any use of the Site in violation of these Terms. Upon termination of your rights under these Terms, your Account and right to access and use the Site will terminate immediately. You understand that any termination of your Account may involve deletion of your User Content associated with your Account from our live databases. Company will not have any liability whatsoever to you for any termination of your rights under these Terms. Even after your rights under these Terms are terminated, the following provisions of these Terms will remain in effect: Sections 2 through 2.5, Section 3 and Sections 4 through 10.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Copyright Policy.</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Company respects the intellectual property of others and asks that users of our Site do the same. In connection with our Site, we have adopted and implemented a policy respecting copyright law that provides for the removal of any infringing materials and for the termination of users of our online Site who are repeated infringers of intellectual property rights, including copyrights. If you believe that one of our users is, through the use of our Site, unlawfully infringing the copyright(s) in a work, and wish to have the allegedly infringing material removed, the following information in the form of a written notification (pursuant to 17 U.S.C. § 512(c)) must be provided to our designated Copyright Agent:</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>your physical or electronic signature;</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>identification of the copyrighted work(s) that you claim to have been infringed;</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>identification of the material on our services that you claim is infringing and that you request us to remove;</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>sufficient information to permit us to locate such material;</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>your address, telephone number, and e-mail address;</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>a statement that you have a good faith belief that use of the objectionable material is not authorized by the copyright owner, its agent, or under the law; and</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>a statement that the information in the notification is accurate, and under penalty of perjury, that you are either the owner of the copyright that has allegedly been infringed or that you are authorized to act on behalf of the copyright owner.</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Please note that, pursuant to 17 U.S.C. § 512(f), any misrepresentation of material fact in a written notification automatically subjects the complaining party to liability for any damages, costs and attorney's fees incurred by us in connection with the written notification and allegation of copyright infringement.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>General</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>These Terms are subject to occasional revision, and if we make any substantial changes, we may notify you by sending you an e-mail to the last e-mail address you provided to us and/or by prominently posting notice of the changes on our Site. You are responsible for providing us with your most current e-mail address. In the event that the last e-mail address that you have provided us is not valid our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice. Any changes to these Terms will be effective upon the earliest of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on our Site. These changes will be effective immediately for new users of our Site. Continued use of our Site following notice of such changes shall indicate your acknowledgement of such changes and agreement to be bound by the terms and conditions of such changes. Dispute Resolution. Please read this Arbitration Agreement carefully. It is part of your contract with Company and affects your rights. It contains procedures for MANDATORY BINDING ARBITRATION AND A CLASS ACTION WAIVER.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Applicability of Arbitration Agreement. All claims and disputes in connection with the Terms or the use of any product or service provided by the Company that cannot be resolved informally or in small claims court shall be resolved by binding arbitration on an individual basis under the terms of this Arbitration Agreement. Unless otherwise agreed to, all arbitration proceedings shall be held in English. This Arbitration Agreement applies to you and the Company, and to any subsidiaries, affiliates, agents, employees, predecessors in interest, successors, and assigns, as well as all authorized or unauthorized users or beneficiaries of services or goods provided under the Terms.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Notice Requirement and Informal Dispute Resolution. Before either party may seek arbitration, the party must first send to the other party a written Notice of Dispute describing the nature and basis of the claim or dispute, and the requested relief. A Notice to the Company should be sent to: Kolkata, India. After the Notice is received, you and the Company may attempt to resolve the claim or dispute informally. If you and the Company do not resolve the claim or dispute within thirty (30) days after the Notice is received, either party may begin an arbitration proceeding. The amount of any settlement offer made by any party may not be disclosed to the arbitrator until after the arbitrator has determined the amount of the award to which either party is entitled.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Arbitration Rules. Arbitration shall be initiated through the American Arbitration Association, an established alternative dispute resolution provider that offers arbitration as set forth in this section. If AAA is not available to arbitrate, the parties shall agree to select an alternative ADR Provider. The rules of the ADR Provider shall govern all aspects of the arbitration except to the extent such rules are in conflict with the Terms. The AAA Consumer Arbitration Rules governing the arbitration are available online at adr.org or by calling the AAA at 1-800-778-7879. The arbitration shall be conducted by a single, neutral arbitrator. Any claims or disputes where the total amount of the award sought is less than Ten Thousand U.S. Dollars (US $10,000.00) may be resolved through binding non-appearance-based arbitration, at the option of the party seeking relief. For claims or disputes where the total amount of the award sought is Ten Thousand U.S. Dollars (US $10,000.00) or more, the right to a hearing will be determined by the Arbitration Rules. Any hearing will be held in a location within 100 miles of your residence, unless you reside outside of the United States, and unless the parties agree otherwise. If you reside outside of the U.S., the arbitrator shall give the parties reasonable notice of the date, time and place of any oral hearings. Any judgment on the award rendered by the arbitrator may be entered in any court of competent jurisdiction. If the arbitrator grants you an award that is greater than the last settlement offer that the Company made to you prior to the initiation of arbitration, the Company will pay you the greater of the award or $2,500.00. Each party shall bear its own costs and disbursements arising out of the arbitration and shall pay an equal share of the fees and costs of the ADR Provider.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Additional Rules for Non-Appearance Based Arbitration. If non-appearance based arbitration is elected, the arbitration shall be conducted by telephone, online and/or based solely on written submissions; the specific manner shall be chosen by the party initiating the arbitration. The arbitration shall not involve any personal appearance by the parties or witnesses unless otherwise agreed by the parties.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Time Limits. If you or the Company pursues arbitration, the arbitration action must be initiated and/or demanded within the statute of limitations and within any deadline imposed under the AAA Rules for the pertinent claim.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Authority of Arbitrator. If arbitration is initiated, the arbitrator will decide the rights and liabilities of you and the Company, and the dispute will not be consolidated with any other matters or joined with any other cases or parties. The arbitrator shall have the authority to grant motions dispositive of all or part of any claim. The arbitrator shall have the authority to award monetary damages, and to grant any non-monetary remedy or relief available to an individual under applicable law, the AAA Rules, and the Terms. The arbitrator shall issue a written award and statement of decision describing the essential findings and conclusions on which the award is based. The arbitrator has the same authority to award relief on an individual basis that a judge in a court of law would have. The award of the arbitrator is final and binding upon you and the Company.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Waiver of Jury Trial. THE PARTIES HEREBY WAIVE THEIR CONSTITUTIONAL AND STATUTORY RIGHTS TO GO TO COURT AND HAVE A TRIAL IN FRONT OF A JUDGE OR A JURY, instead electing that all claims and disputes shall be resolved by arbitration under this Arbitration Agreement. Arbitration procedures are typically more limited, more efficient and less expensive than rules applicable in a court and are subject to very limited review by a court. In the event any litigation should arise between you and the Company in any state or federal court in a suit to vacate or enforce an arbitration award or otherwise, YOU AND THE COMPANY WAIVE ALL RIGHTS TO A JURY TRIAL, instead electing that the dispute be resolved by a judge.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Waiver of Class or Consolidated Actions. All claims and disputes within the scope of this arbitration agreement must be arbitrated or litigated on an individual basis and not on a class basis, and claims of more than one customer or user cannot be arbitrated or litigated jointly or consolidated with those of any other customer or user.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Confidentiality. All aspects of the arbitration proceeding shall be strictly confidential. The parties agree to maintain confidentiality unless otherwise required by law. This paragraph shall not prevent a party from submitting to a court of law any information necessary to enforce this Agreement, to enforce an arbitration award, or to seek injunctive or equitable relief.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Severability. If any part or parts of this Arbitration Agreement are found under the law to be invalid or unenforceable by a court of competent jurisdiction, then such specific part or parts shall be of no force and effect and shall be severed and the remainder of the Agreement shall continue in full force and effect.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Right to Waive. Any or all of the rights and limitations set forth in this Arbitration Agreement may be waived by the party against whom the claim is asserted. Such waiver shall not waive or affect any other portion of this Arbitration Agreement.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Survival of Agreement. This Arbitration Agreement will survive the termination of your relationship with Company.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Small Claims Court. Nonetheless the foregoing, either you or the Company may bring an individual action in small claims court.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Emergency Equitable Relief. Anyhow the foregoing, either party may seek emergency equitable relief before a state or federal court in order to maintain the status quo pending arbitration. A request for interim measures shall not be deemed a waiver of any other rights or obligations under this Arbitration Agreement.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Claims Not Subject to Arbitration. Notwithstanding the foregoing, claims of defamation, violation of the Computer Fraud and Abuse Act, and infringement or misappropriation of the other party's patent, copyright, trademark or trade secrets shall not be subject to this Arbitration Agreement.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>In any circumstances where the foregoing Arbitration Agreement permits the parties to litigate in court, the parties hereby agree to submit to the personal jurisdiction of the courts located within in County, California, for such purposes.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>The Site may be subject to U.S. export control laws and may be subject to export or import regulations in other countries. You agree not to export, re-export, or transfer, directly or indirectly, any U.S. technical data acquired from Company, or any products utilizing such data, in violation of the United States export laws or regulations.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Company is located at the address in Section 10.8. If you are a California resident, you may report complaints to the Complaint Assistance Unit of the Division of Consumer Product of the California Department of Consumer Affairs by contacting them in writing at 400 R Street, Sacramento, CA 95814, or by telephone at (800) 952-5210.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Electronic Communications. The communications between you and Company use electronic means, whether you use the Site or send us emails, or whether Company posts notices on the Site or communicates with you via email. For contractual purposes, you (a) consent to receive communications from Company in an electronic form; and (b) agree that all terms and conditions, agreements, notices, disclosures, and other communications that Company provides to you electronically satisfy any legal obligation that such communications would satisfy if it were be in a hard copy writing.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Entire Terms. These Terms constitute the entire agreement between you and us regarding the use of the Site. Our failure to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision. The section titles in these Terms are for convenience only and have no legal or contractual effect. The word "including" means "including without limitation". If any provision of these Terms is held to be invalid or unenforceable, the other provisions of these Terms will be unimpaired and the invalid or unenforceable provision will be deemed modified so that it is valid and enforceable to the maximum extent permitted by law. Your relationship to Company is that of an independent contractor, and neither party is an agent or partner of the other. These Terms, and your rights and obligations herein, may not be assigned, subcontracted, delegated, or otherwise transferred by you without Company's prior written consent, and any attempted assignment, subcontract, delegation, or transfer in violation of the foregoing will be null and void. Company may freely assign these Terms. The terms and conditions set forth in these Terms shall be binding upon assignees.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Your Privacy. Please read our Privacy Policy.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Copyright/Trademark Information. Copyright ©. All rights reserved. All trademarks, logos and service marks displayed on the Site are our property or the property of other third-parties. You are not permitted to use these Marks without our prior written consent or the consent of such third party which may own the Marks.</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Contact Information</span></a><span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Address: Kolkata, India</span></a><span></span></p><p><span></span>
+<span></span></p><p><span></span><a href="https://policies.google.com/technologies/ads" class="underline"><span>Email: support@jetweb.in</span></a><span></span></p></div>
+</div>
+</div>
+</main>
+<footer class="layer mt-auto bg-black py-4 text-white">
+<div class="layer-content flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+<div>
+<div class="mb-2 flex h-20">
+<img class="h-full w-full object-contain object-left" width="1588" height="682" srcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
+            " src="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg" sizes="(min-width: 1024px) 25vw, 80vw" loading="lazy" alt>
+</div>
+<div class="flex flex-col lg:flex-row lg:gap-6">
+<a class="flex items-center gap-2 py-1" href="tel:+18240620015">(824) 062-0015</a>
+<a class="flex items-center gap-2 py-1" href="mailto:support@jetweb.in">support@jetweb.in</a>
+</div>
+</div>
+<div class="flex flex-wrap justify-start gap-3 py-2 lg:max-w-md lg:justify-end">
+<a class="flex h-12 w-12 items-center justify-center gap-2 rounded-full border-2 border-current" href="tel:+18240620015" aria-label="Call">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-6 w-6 fill-current">
+<path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z" />
+</svg>
+</a>
+<a class="flex h-12 w-12 items-center justify-center gap-2 rounded-full border-2 border-current" href="sms:+18240620015" aria-label="Text">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-6 w-6 fill-current">
+<path d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z" />
+</svg>
+</a>
+<a class="flex h-12 w-12 items-center justify-center gap-2 rounded-full border-2 border-current" href="mailto:support@jetweb.in" aria-label="Email">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="h-6 w-6 fill-current">
+<path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256v32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32v80 32c0 17.7 14.3 32 32 32s32-14.3 32-32V256c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+</svg>
+</a>
+</div>
+</div>
+<div class="layer-content mt-2 flex w-full flex-col gap-4 border-t border-neutral-500 pt-2 lg:flex-row lg:items-center lg:justify-between">
+<div class="hidden lg:block"></div>
+<div class="flex flex-wrap justify-start gap-6 py-2 lg:max-w-md lg:justify-end">
+<a class="block underline" href="privacy-policy.html">
+Privacy Policy</a>
+<a class="block underline" href="terms-of-use.html">
+Terms of Use</a>
+<a class="block underline" href="disclaimer.html">
+Disclaimer</a>
+</div>
+</div>
+</footer>
+<script defer src="common.js"></script>
+</body>
+</html>
