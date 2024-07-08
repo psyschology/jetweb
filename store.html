@@ -290,140 +290,124 @@
 </div>
 </div>
 <main>
-<div class="plans-container">
-  <!-- Standard Plan -->
-  <div class="plan-card">
-    <h3 class="plan-title">Standard Plan</h3>
-    <p class="plan-subtitle">Web Development Standard Package</p>
-    <div class="plan-price">
-      <span class="original-price">₹ 10,000</span>
-      <span class="discounted-price">₹ 7,999</span>
-      <span class="gst">(+ 18% GST ₹ 1440)</span>
-    </div>
-    <ul class="plan-features">
-      <li>5 pages Website</li>
-      <li>1 Year Free Domain Name (.com .in .org)</li>
-      <li>1 Year Free Hosting (Unlimited Space)</li>
-      <li>Dynamic Website (Premium Design)</li>
-      <li>Admin Access</li>
-      <li>Lifetime 24/7 Free Hosting Support</li>
-      <li>Unlimited Images & Videos Upload</li>
-      <li>Free SSL Certificates</li>
-      <li>5 Free Email Id</li>
-      <li>SEO Friendly Website</li>
-      <li>100% Responsive Website</li>
-      <li>Live Chat Integration</li>
-      <li>Payment Gateway Integration</li>
-      <li>Social Media Integration</li>
-      <li>Call Button Integration</li>
-      <li>WhatsApp Button Integration</li>
-      <li>Inquiry Form</li>
-      <li>1 Year Free Technical Support For Website</li>
-      <li>Annual Renewal For Hosting Rs.3000</li>
-    </ul>
-    <button class="call-now-btn">Call Now</button>
-  </div>
-
-  <!-- Repeat similar structure for other plans -->
-
-</div>
-<style>
-    .plans-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
+        <div class="product-card">
+            <h4>Custom Multi-vendor Business & E-commerce Plan</h4>
+            <img src="https://flowndeveloper.com/wp-content/uploads/2022/12/im-image-section-122.webp" alt="Web Development Multi-vendor Business & E-commerce Plan">
+            <div class="price">
+                <small><strike>₹ ???</strike></small><br>
+                <b style="color:#151AB2"> ₹ ???</b>
+            </div>
+            <h5>( + 18% GST Applicable )</h5>
+            <h5>Features Includes</h5>
+            <ul class="features-list">
+                <li>Pages: According to the requirements</li>
+                <li>1 Year Free Domain Name ( .com .in .org )</li>
+                <li>1 Year Free Hosting ( Unlimited Space )</li>
+                <li>?? Products Categories</li>
+                <li>?? Products Listing from our side</li>
+                <li>Premium Design</li>
+                <li>Dynamic Website</li>
+                <li>Admin Access​</li>
+                <li>Google Search Console Setup</li>
+                <li>Dynamic Multi-Vendor Website</li>
+                <li>Lifetime 24/7 Free Hosting Support</li>
+                <li>Unlimited Images & Videos Upload</li>
+                <li>Free SSL Certificates</li>
+                <li>20 Free Email Id</li>
+                <li>SEO Friendly Website</li>
+                <li>100% Responsive Website</li>
+                <li>Live Chat Integration</li>
+                <li>Payment Gateway Integration</li>
+                <li>Social Media Integration</li>
+                <li>Call Button Integration</li>
+                <li>WhatsApp Button Integration</li>
+                <li>Inquiry Form</li>
+                <li>Multi-Level Ecommece Features</li>
+                <li>Product Variation Features</li>
+                <li>Auto Invoice Bill Generater Features</li>
+                <li>Wallet System Features</li>
+                <li>Order Notification Features</li>
+                <li>OTP Verification Features</li>
+                <li>1 Year Free Technical Support For Website</li>
+                <li>Annual Renewal For Hosting Rs.4000.</li>
+            </ul>
+            <a class="call-button" href="tel:8240740018">Call Now</a>
+        </div>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-.plan-card {
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  transition: transform 0.3s, box-shadow 0.3s;
+header, footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    flex-shrink: 0;
 }
 
-.plan-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
-.plan-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-  color: #333;
-  margin-bottom: 10px;
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
-.plan-subtitle {
-  font-size: 1.25rem;
-  color: #666;
-  margin-bottom: 15px;
+.product-card h4 {
+    margin-top: 0;
 }
 
-.plan-price {
-  font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 15px;
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
 }
 
-.plan-price .original-price {
-  text-decoration: line-through;
-  color: #999;
-  margin-right: 10px;
+.price {
+    margin: 10px 0;
 }
 
-.plan-price .discounted-price {
-  font-weight: 700;
-  color: #e60023;
-  margin-right: 10px;
+.price b {
+    font-size: 1.5em;
 }
 
-.plan-price .gst {
-  color: #666;
+.features-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
 }
 
-.plan-features {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-  color: #555;
+.features-list li {
+    padding: 5px 0;
 }
 
-.plan-features li {
-  margin-bottom: 8px;
+.call-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #151AB2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.call-now-btn {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.call-now-btn:hover {
-  background-color: #0056b3;
-}
-
-/* Responsive */
-@media (min-width: 768px) {
-  .plans-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .plans-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-</style>
-</main>
+    </style>
+    </main>
 <footer class="layer mt-auto bg-black py-4 text-white">
 <div class="layer-content flex w-full flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
 <div>
