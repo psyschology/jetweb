@@ -172,7 +172,7 @@
   .color-rule-7 { padding-inline: 4px;background-image: linear-gradient(45deg,#CCCCCC,#46536B);background-clip:text;-webkit-text-fill-color:transparent; }
 </style>
 <link rel="icon" href="jetweb.png" sizes="any">
-<link rel="preload" as="image" href="https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg" imagesrcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
+<link rel="preload" as="image" href="jetweb.png" imagesrcset="https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=320/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 320w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=640/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 640w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=960/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 960w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1024/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1024w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1280/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1280w,https://image-assets.turncage.com/cdn-cgi/image/format=auto,fit=contain,width=1920/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg 1920w
     " imagesizes="(min-width: 1024px) 25vw, 50vw">
 <meta property="og:title" content="Expert Web Development Services by Jetweb Labs">
 <meta property="og:image" content>
@@ -495,5 +495,41 @@ Disclaimer</a>
 </div>
 </footer>
 <script defer src="common.js"></script>
+    <script>
+                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?36277';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                    "backgroundColor":"#00e785",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "marginLeft": "0",
+                    "marginRight": "20",
+                    "marginBottom": "20",
+                    "ctaIconWATI":false,
+                    "position":"right"
+                },
+                "brandSetting":{
+                    "brandName":"Jetweb Labs",
+                    "brandSubTitle":"undefined",
+                    "brandImg":"https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg",
+                    "welcomeText":"Hi there!\nHow can I help you?",
+                    "backgroundColor":"#00e785",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "autoShow":false,
+                    "phoneNumber":"918240620015"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            </script>
 </body>
 </html>
