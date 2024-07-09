@@ -432,6 +432,42 @@ Disclaimer</a>
 </div>
 </footer>
 <script defer src="common.js"></script>
+    <script>
+                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?36277';
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = url;
+                var options = {
+                "enabled":true,
+                "chatButtonSetting":{
+                    "backgroundColor":"#00e785",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "marginLeft": "0",
+                    "marginRight": "20",
+                    "marginBottom": "20",
+                    "ctaIconWATI":false,
+                    "position":"right"
+                },
+                "brandSetting":{
+                    "brandName":"Jetweb Labs",
+                    "brandSubTitle":"undefined",
+                    "brandImg":"https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg",
+                    "welcomeText":"Hi there!\nHow can I help you?",
+                    "backgroundColor":"#00e785",
+                    "ctaText":"Chat with us",
+                    "borderRadius":"25",
+                    "autoShow":false,
+                    "phoneNumber":"918240620015"
+                }
+                };
+                s.onload = function() {
+                    CreateWhatsappChatWidget(options);
+                };
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            </script>
 </body>
 </html>
 
