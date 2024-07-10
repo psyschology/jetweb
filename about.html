@@ -406,66 +406,68 @@ Disclaimer</a>
 </footer>
 <script defer src="swipe.js"></script>
 <script defer src="common.js"></script>
-    <script>
-                var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?36277';
-                var s = document.createElement('script');
-                s.type = 'text/javascript';
-                s.async = true;
-                s.src = url;
-                var options = {
-                "enabled":true,
-                "chatButtonSetting":{
-                    "backgroundColor":"#00e785",
-                    "ctaText":"Chat with us",
-                    "borderRadius":"25",
-                    "marginLeft": "0",
-                    "marginRight": "20",
-                    "marginBottom": "20",
-                    "ctaIconWATI":false,
-                    "position":"right"
-                },
-                "brandSetting":{
-                    "brandName":"Jetweb Labs",
-                    "brandSubTitle":"undefined",
-                    "brandImg":"https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg",
-                    "welcomeText":"Hi there!\nHow can I help you?",
-                    "backgroundColor":"#00e785",
-                    "ctaText":"Chat with us",
-                    "borderRadius":"25",
-                    "autoShow":false,
-                    "phoneNumber":"918240620015"
-                }
-                };
-                s.onload = function() {
-                    CreateWhatsappChatWidget(options);
-                };
-                var x = document.getElementsByTagName('script')[0];
-                x.parentNode.insertBefore(s, x);
-            </script>
-    <script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#000",
-          "text": "#fff"
+ <script>
+    var url = 'https://wati-integration-prod-service.clare.ai/v2/watiWidget.js?36277';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+        "enabled": true,
+        "chatButtonSetting": {
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
+            "borderRadius": "25",
+            "marginLeft": "0",
+            "marginRight": "20",
+            "marginBottom": "70",  // Adjusted marginBottom to move it higher
+            "ctaIconWATI": false,
+            "position": "right"
         },
-        "button": {
-          "background": "#f1d600",
-          "text": "#000"
+        "brandSetting": {
+            "brandName": "Jetweb Labs",
+            "brandSubTitle": "undefined",
+            "brandImg": "https://image-assets.turncage.com/clyc6xjvv03zka6mys7lqn3p8/clyc7k6cj0428a6my6wnkiiwe.jpg",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "backgroundColor": "#00e785",
+            "ctaText": "Chat with us",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "918240620015"
         }
-      },
-      "theme": "classic",
-      "content": {
-        "message": "This website uses cookies to ensure you get the best experience on our website.",
-        "dismiss": "Got it!",
-        "link": "Learn more",
-        "href": "/privacy-policy"
-      }
-    });
-  });
+    };
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
 </script>
-    <!-- Start of LiveChat (www.livechat.com) code -->
+
+<script>
+    window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#000",
+                    "text": "#fff"
+                },
+                "button": {
+                    "background": "#f1d600",
+                    "text": "#000"
+                }
+            },
+            "theme": "classic",
+            "content": {
+                "message": "This website uses cookies to ensure you get the best experience on our website.",
+                "dismiss": "Got it!",
+                "link": "Learn more",
+                "href": "/privacy-policy"
+            }
+        });
+    });
+</script>
+
+<!-- Start of LiveChat (www.livechat.com) code -->
 <script>
     window.__lc = window.__lc || {};
     window.__lc.license = 18252450;
@@ -475,6 +477,14 @@ Disclaimer</a>
 </script>
 <noscript><a href="https://www.livechat.com/chat-with/18252450/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
 <!-- End of LiveChat code -->
+
+<style>
+    /* Adjust the position of the LiveChat widget */
+    .lc-1xeyftr {
+        bottom: 20px !important; /* Adjust this value to move the LiveChat widget lower */
+    }
+</style>
+
 
 
 </body>
