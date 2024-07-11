@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/about", "destination": "/about.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/blog1", "destination": "/blog1.html" },
+    { "source": "/competitive-pricing", "destination": "/competitive-pricing.html" },
+    { "source": "/contact", "destination": "/contact.html" },
+    { "source": "/continuous-improvement", "destination": "/continuous-improvement.html" },
+    { "source": "/data-analytics", "destination": "/data-analytics.html" },
+    { "source": "/digital-marketing", "destination": "/digital-marketing.html" },
+    { "source": "/disclaimer", "destination": "/disclaimer.html" },
+    { "source": "/e-commerce-solutions", "destination": "/e-commerce-solutions.html" },
+    { "source": "/our-work", "destination": "/our-work.html" },
+    { "source": "/privacy-policy", "destination": "/privacy-policy.html" },
+    { "source": "/rapid-deployment", "destination": "/rapid-deployment.html" },
+    { "source": "/social-media-management", "destination": "/social-media-management.html" },
+    { "source": "/store", "destination": "/store.html" },
+    { "source": "/terms-of-use", "destination": "/terms-of-use.html" },
+    { "source": "/web-development", "destination": "/web-development.html" }
+  ]
+}
